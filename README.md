@@ -1,76 +1,184 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  AI/ML Portfolio Website<br/>
+  <a href="https://amaan-portfolio.vercel.app" target="_blank">Amaan Behlim</a>
 </h2>
+
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Portfolio Preview" src="./Images/readme-img1.png" />
 </div>
 
 <br/>
 
-<center>
+<div align="center">
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+[![Built with React](https://img.shields.io/badge/Built%20With-React-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![License](https://img.shields.io/badge/Open%20Source-❤-success?style=for-the-badge)]()
+[![GitHub stars](https://img.shields.io/github/stars/BehlimAmaan/Portfolio?style=for-the-badge&logo=github)]()
+[![GitHub forks](https://img.shields.io/github/forks/BehlimAmaan/Portfolio?style=for-the-badge&logo=github)]()
 
-</center>
+</div>
+
+---
+
+# 🚀 About
+
+Welcome to my personal portfolio website!
+
+I'm **Amaan Behlim**, an **AI/ML Engineer** passionate about building intelligent applications using **Machine Learning, Deep Learning, Generative AI, LLMs, and RAG**.
+
+This portfolio showcases my projects, technical skills, work experience, certifications, and resume in a clean, responsive, and modern interface.
+
+---
+
+# 🌐 Live Demo
+
+🔗 **Portfolio:** https://your-portfolio-link.vercel.app
+
+---
+
+# 💡 Featured Projects
+
+- 🤖 AI Video Agent
+- 🎬 Movie Recommendation System
+- 🩺 Diabetes Prediction System
+- 🔥 Forest Fire Prediction System
+- 🎓 Smart Attendance System
+- ✍️ Next Word Predictor
+
+---
+
+# 🛠 Tech Stack
+
+### Programming
+
+- Python
+- SQL
+- JavaScript
+
+### AI & Machine Learning
+
+- Machine Learning
+- Deep Learning
+- CNN
+- ANN
+- RNN
+- LSTM
+- NLP
+- Generative AI
+- LLMs
+- RAG
+- FAISS
+- Hugging Face
+- LangChain
+- TensorFlow
+- Scikit-learn
+- XGBoost
+
+### Data Science
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Power BI
+
+### Cloud & Tools
+
+- AWS
+- Microsoft Azure
+- Docker
+- Git
+- GitHub
+- Streamlit
+- Jupyter Notebook
+- VS Code
+
+---
+
+# ✨ Features
+
+- 🎨 Modern Glassmorphism UI
+- 🌙 Dark Theme
+- ⚡ Smooth Animations
+- 📱 Fully Responsive
+- 🧠 AI/ML Focused Design
+- 💼 Resume Section
+- 📂 Project Showcase
+- 🛠 Skills & Tools
+- 📬 Contact Information
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/BehlimAmaan/Portfolio.git
+```
+
+Move into the project
+
+```bash
+cd Portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm start
+```
+
+or
+
+```bash
+npm run dev
+```
+
+---
+
+# 📂 Project Structure
+
+```
+src
+│
+├── Assets
+├── Components
+├── Pages
+├── Images
+├── App.js
+└── index.js
+```
+
+---
+
+# 📬 Connect With Me
+
+📧 **Email:** itzamaanbehlim45@gmail.com
+
+💼 **LinkedIn:**  
+https://linkedin.com/in/amaanbehlim
+
+💻 **GitHub:**  
+https://github.com/BehlimAmaan
+
+---
+
+# ⭐ Support
+
+If you like this portfolio, consider giving the repository a **⭐ Star**.
+
+It helps support my work and motivates me to build more AI-powered projects.
+
+---
 
 <h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+Made with ❤️ by <b>Amaan Behlim</b>
 </h3>
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
-
-## Built With
-
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>

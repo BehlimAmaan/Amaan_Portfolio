@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/AI Video Agent.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="AI Video Agent"
               description="An AI-powered assistant that answers questions from videos and documents using context-aware retrieval for accurate responses.
-Built with LLMs, LangChain, RAG, ChromaDB, and Hugging Face embeddings for intelligent semantic search."
+              Built with LLMs, LangChain, RAG, ChromaDB, and Hugging Face embeddings for intelligent semantic search."
               ghLink="https://github.com/BehlimAmaan/AI-Video-Chat-Bot-using-RAG"
               demoLink=""
             />
