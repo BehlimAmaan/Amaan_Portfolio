@@ -1,0 +1,99 @@
+.network-container{
+
+    margin-top:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.network-line{
+
+    stroke:#8b5cf6;
+
+    stroke-width:2;
+
+    opacity:.3;
+
+    animation:flow 2.5s infinite ease-in-out;
+}
+
+.network-node{
+
+    fill:#c770f0;
+
+    filter:drop-shadow(0 0 10px #c770f0);
+
+    animation:pulse 2s infinite;
+}
+
+.network-container h3{
+
+    margin-top:20px;
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+.network-container p{
+
+    color:#c770f0;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+fill:#c770f0;
+
+}
+
+50%{
+
+transform:scale(1.4);
+
+fill:white;
+
+}
+
+100%{
+
+transform:scale(1);
+
+fill:#c770f0;
+
+}
+
+}
+
+@keyframes flow{
+
+0%{
+
+opacity:.2;
+
+}
+
+50%{
+
+opacity:1;
+
+stroke:#ffffff;
+
+}
+
+100%{
+
+opacity:.2;
+
+}
+
+}
