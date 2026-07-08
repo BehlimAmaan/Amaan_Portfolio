@@ -1,6 +1,6 @@
 <h2 align="center">
   AI/ML Portfolio Website<br/>
-  <a href="https://amaanbehlim-portfolio.vercel.app/" target="_blank">Amaan Behlim</a>
+  <a href="https://amaan-portfolio-blond.vercel.app/" target="_blank">Amaan Behlim</a>
 </h2>
 
 <div align="center">
@@ -33,7 +33,7 @@ This portfolio showcases my projects, technical skills, work experience, certifi
 
 # 🌐 Live Demo
 
-🔗 **Portfolio:** https://amaanbehlim-portfolio.vercel.app/
+🔗 **Portfolio:** https://amaan-portfolio-blond.vercel.app/
 
 ---
 
