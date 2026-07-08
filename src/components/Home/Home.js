@@ -9,7 +9,7 @@ import Github from "../About/Github";
 import NeuralNetwork from "./NeuralNetwork";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillLinkedin,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -74,16 +74,6 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/amaanbehlim/"
