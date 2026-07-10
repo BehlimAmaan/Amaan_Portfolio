@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/Amaan_Behlim.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -30,10 +30,15 @@ function About() {
             </Col>
             <Col
               md={5}
-              style={{ paddingTop: "120px", paddingBottom: "50px" }}
-              className="about-img"
+              className="d-flex justify-content-center align-items-center"
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <div className="profile-image-container">
+                <img
+                  src={laptopImg}
+                  alt="Amaan Behlim"
+                  className="profile-image"
+                />
+              </div>
             </Col>
           </Row>
           <h1 className="project-heading">
