@@ -7,6 +7,7 @@ import Type from "./Type";
 import NeuralNetwork from "./NeuralNetwork";
 import {
   AiFillGithub,
+  AiOutlineMail,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -34,7 +35,6 @@ function Home() {
               <div style={{paddingTop:"40px"}}>
 
                   <Type/>
-
                   <NeuralNetwork/>
 
               </div>
@@ -85,6 +85,17 @@ function Home() {
                   <FaLinkedinIn />
                 </a>
               </li>
+                <li className="social-icons">
+                  <a
+                    href="mailto:your_email@example.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                    aria-label="Email"
+                  >
+                    <AiOutlineMail />
+                  </a>
+                </li>
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/amaanbehlim.official"
