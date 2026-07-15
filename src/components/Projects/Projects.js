@@ -29,7 +29,7 @@ function Projects() {
               description="An AI-powered assistant that answers questions from videos and documents using context-aware retrieval for accurate responses.
               Built with LLMs, LangChain, RAG, ChromaDB, and Hugging Face embeddings for intelligent semantic search."
               ghLink="https://github.com/BehlimAmaan/AI-Video-Chat-Bot-using-RAG"
-              demoLink=""
+              demoLink="https://ai-video-assistance.streamlit.app/"
             />
           </Col>
 
@@ -41,7 +41,7 @@ function Projects() {
               description="A personalized movie recommendation platform that suggests similar movies based on user preferences and movie content.
               Developed using Python, Pandas, Scikit-learn, TF-IDF, and Cosine Similarity, and deployed with Streamlit."
               ghLink="https://github.com/BehlimAmaan/movie-recommended-system"
-              demoLink="https://moviemind-ai.streamlit.app/%5D%28https:/moviemind-ai.streamlit.app/"
+              demoLink="https://moviemind-ai.streamlit.app/"
             />
           </Col>
 
@@ -49,11 +49,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Diabetes-Prediction-System"
-              description="A machine learning application that predicts the likelihood of diabetes using patient health data for early risk assessment.
-              Built using Python, Scikit-learn, XGBoost, with EDA, feature engineering, and hyperparameter tuning."
-              ghLink="https://github.com/BehlimAmaan/Diabetes-Prediction-System-ML"
-              demoLink="https://diabetes-checking-system.streamlit.app/"              
+              title="AI-Research-Multi-Agent"
+              description="An AI-powered multi-agent research assistant that automates web research using specialized AI agents. It performs intelligent web search, extracts and analyzes information from multiple sources, generates comprehensive research reports, and provides accurate, well-structured insights. Built with Python, FastAPI, LangChain, Google Gemini, and Tavily Search API."
+              ghLink="https://github.com/BehlimAmaan/An-AI-powered-research-assistant-"
+              demoLink="https://ai-research-multi-agent.streamlit.app/"
             />
           </Col>
 
@@ -61,11 +60,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Fire Predictor"
-              description="An AI-based system that predicts forest fire risk using weather and environmental data to support early prevention.
-              Implemented using Python, Machine Learning algorithms, data preprocessing, and predictive analytics."
-              ghLink="https://github.com/BehlimAmaan/Fire-Risk-Predictor"
-              demoLink=""
+              title="Diabetic Predictor"
+              description="A machine learning application that predicts the likelihood of diabetes using patient health data for early risk assessment."
+              ghLink="https://github.com/BehlimAmaan/Diabetes-Prediction-System-ML"
+              demoLink="https://diabetes-checking-system.streamlit.app/"
             />
           </Col>
 
