@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/fire.png";
-import emotion from "../../Assets/Projects/word.png";
-import editor from "../../Assets/Projects/diabetic.png";
-import chatify from "../../Assets/Projects/ai video.png";
-import suicide from "../../Assets/Projects/smart.png";
-import bitsOfCode from "../../Assets/Projects/Recommandation.png";
+import word from "../../Assets/Projects/word.png";
+import diabetic from "../../Assets/Projects/diabetic.png";
+import ai from "../../Assets/Projects/ai video.png";
+import smart from "../../Assets/Projects/smart.png";
+import recommandation from "../../Assets/Projects/Recommandation.png";
+import research from "../../Assets/Projects/research.png";
+
 
 function Projects() {
   return (
@@ -23,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ai}
               isBlog={false}
               title="AI Video Agent"
               description="An AI-powered assistant that answers questions from videos and documents using context-aware retrieval for accurate responses.
@@ -35,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={recommandation}
               isBlog={false}
               title="Recommendation System"
               description="A personalized movie recommendation platform that suggests similar movies based on user preferences and movie content.
@@ -47,7 +48,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={research}
               isBlog={false}
               title="AI-Research-Multi-Agent"
               description="An AI-powered multi-agent research assistant that automates web research using specialized AI agents. It performs intelligent web search, extracts and analyzes information from multiple sources, generates comprehensive research reports, and provides accurate, well-structured insights. Built with Python, FastAPI, LangChain, Google Gemini, and Tavily Search API."
@@ -58,7 +59,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={diabetic}
               isBlog={false}
               title="Diabetic Predictor"
               description="A machine learning application that predicts the likelihood of diabetes using patient health data for early risk assessment."
@@ -69,7 +70,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={smart}
               isBlog={false}
               title="Smart Attendence"
               description="An AI-powered attendance system that automatically marks attendance using face recognition with liveness detection for enhanced security.
@@ -80,7 +81,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={word}
               isBlog={false}
               title="Next Word Predictor"
               description="A deep learning application that predicts the next word in a sentence to provide intelligent text completion.
