@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { min-width: 320px; font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif; }
+  ::selection { background: rgba(88, 166, 255, .32); color: white; }
+  :focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
+}
+
+@layer components {
+  .surface {
+    @apply border border-slate-200/80 bg-white/80 shadow-float backdrop-blur-xl dark:border-white/[0.09] dark:bg-white/[0.045];
+  }
+  .eyebrow {
+    @apply font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-electric-600 dark:text-electric-300;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .text-balance { text-wrap: balance; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

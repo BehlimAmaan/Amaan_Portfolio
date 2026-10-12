@@ -7,7 +7,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "react-pdf/dist/esm/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -30,8 +29,11 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        <Container className="resume-inner">
+          <p className="eyebrow">EXPERIENCE, EDUCATION &amp; SELECTED SKILLS</p>
+          <h1 className="resume-heading">The details, <em>on paper.</em></h1>
+        </Container>
 
-        {/* Download Button */}
         <Row
           style={{
             justifyContent: "center",
@@ -43,6 +45,7 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
+            rel="noreferrer"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -50,25 +53,16 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        {/* Resume */}
         <Row className="resume">
           <Document
             file={pdf}
             className="d-flex flex-column align-items-center"
           >
-            <Page
-              pageNumber={1}
-              width={width > 786 ? 900 : width * 0.9}
-            />
-
-            <Page
-              pageNumber={2}
-              width={width > 786 ? 900 : width * 0.9}
-            />
+            <Page pageNumber={1} width={width > 786 ? 900 : width * 0.9} />
+            <Page pageNumber={2} width={width > 786 ? 900 : width * 0.9} />
           </Document>
         </Row>
 
-        {/* Download Button */}
         <Row
           style={{
             justifyContent: "center",
@@ -80,6 +74,7 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
+            rel="noreferrer"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
